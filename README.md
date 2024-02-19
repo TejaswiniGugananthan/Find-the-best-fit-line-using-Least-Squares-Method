@@ -24,6 +24,10 @@ Developed by: G.TEJASWINI
 
 RegisterNumber: 212222230157
 
+```python
+import numpy as np
+```
+
 ## Output:
 ![best fit line](sam.png)
 
