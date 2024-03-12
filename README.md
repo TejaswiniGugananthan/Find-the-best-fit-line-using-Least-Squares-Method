@@ -30,7 +30,7 @@ x=np.array(eval(input()))
 y=np.array(eval(input()))
 ```
 
-<img width="74" alt="image" src="https://github.com/TejaswiniGugananthan/Find-the-best-fit-line-using-Least-Squares-Method/assets/121222763/354fa063-e650-4eb0-9662-aafe6424bf16">
+
 
 ```python
 x_mean=np.mean(x)
@@ -47,7 +47,7 @@ print("y-intercept: ",b)
 y_predict=m*x+b
 ```
 
-<img width="121" alt="image" src="https://github.com/TejaswiniGugananthan/Find-the-best-fit-line-using-Least-Squares-Method/assets/121222763/902bad3d-6574-4fec-b830-89c76b8999d6">
+
 
 ```python
 import matplotlib.pyplot as plt
@@ -55,8 +55,23 @@ plt.scatter(x,y)
 plt.plot(x,y_predict,color='blue')
 ```
 
-<img width="375" alt="image" src="https://github.com/TejaswiniGugananthan/Find-the-best-fit-line-using-Least-Squares-Method/assets/121222763/bdba84f4-f681-4c91-8a07-4d1c9febea8c">
 
+
+
+
+### OUPUT: 
+
+1.Declaring the array:
+
+<img width="74" alt="image" src="https://github.com/TejaswiniGugananthan/Find-the-best-fit-line-using-Least-Squares-Method/assets/121222763/354fa063-e650-4eb0-9662-aafe6424bf16">
+
+2.Values of slope and Y- intercept:
+
+<img width="121" alt="image" src="https://github.com/TejaswiniGugananthan/Find-the-best-fit-line-using-Least-Squares-Method/assets/121222763/902bad3d-6574-4fec-b830-89c76b8999d6">
+
+3. scatter plot of Y- intercept:
+
+<img width="375" alt="image" src="https://github.com/TejaswiniGugananthan/Find-the-best-fit-line-using-Least-Squares-Method/assets/121222763/bdba84f4-f681-4c91-8a07-4d1c9febea8c">
 
 
 ## Result:
